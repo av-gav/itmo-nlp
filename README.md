@@ -3,9 +3,9 @@
 Online course Natural Language Processing with Machine Learning
 
 1. Выбираем задачу классификации, а конкретно - идентификации языка по фрагменту текста. Ограничимся языками, использующими кириллические алфавиты. Соответственно, нужно будет сформировать датасет с текстами на разных языках. Возможные источники для исходных текстов:
-- (+) Wikipedia (https://en.wikipedia.org) // можно попробовать датасеты из Tensorflow
+- (+) Wikipedia (https://en.wikipedia.org) // можно попробовать датасеты из Tensorflow - они оказались неудобными, проще получилось скачать напрямую, и частично с помощью библиоеки wikipedia
 - (+) Tatoeba (https://attoeba.org) // данные можно получать с помощью https://pypi.org/project/tatoebatools/
-- (+) UDHR in Unicode (https://unicode.org/udhr) // есть модуль в NLTK, но можно и прямо с сайта (plaintext)
+- (+) UDHR in Unicode (https://unicode.org/udhr) // есть модуль в NLTK, но можно и прямо с сайта (plaintext) - удобнее прямо с сайта, но в формате HTML
 - (-) CC-100: Monolingual Datasets from Web Crawl Data (https://data.statmt.org/cc-100)
 - (-) Коллекции текстов на малых языках (http://web-corpora.net/wsgi3/minorlangs/download)
 
